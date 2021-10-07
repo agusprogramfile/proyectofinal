@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.primertexto {
+  height: 100vh;
+  width: 45%;
+}
+#primer-pantalla {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+      270deg,
+      rgba(27, 79, 157, 0.4) 0%,
+      rgba(28, 28, 27, 0.2) 52.08%,
+      rgba(28, 28, 27, 0.4) 100%
+    ),
+    #1b4f9d;
+}
+#off {
+  position: relative;
+  width: 177px;
+  height: 120px;
+  left: 100px;
+  top: 152px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+#dis {
+  position: relative;
+  width: 700px;
+  left: 100px;
+
+  right: 120px;
+  top: 120px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+  color: #ffffff;
+}
+#ux {
+  position: absolute;
+  width: 613px;
+  height: 68px;
+  left: 624px;
+  top: 383px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+  text-align: right;
+  color: #ffffff;
+}
+#comun {
+  position: absolute;
+  width: 765px;
+  height: 190px;
+  left: 474px;
+  top: 477px;
+  color: #fff;
+  font-family: "Open Sans";
+  text-align: right;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+/* page 2 */
+
+.segundotexto {
+  background: #e5e5e5;
+  height: 100vh;
+  width: 55%;
+}
+.segundafoto {
+  background: url(img/reunion.jpg);
+  opacity: 70%;
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 100vh;
+}
+#segunda-pantalla {
+  display: flex;
+  flex-wrap: wrap;
+}
+#product {
+  width: 404px;
+  margin: auto;
+
+  margin-top: 140px;
+  height: 120px;
+  left: 145px;
+  top: 842px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #1b4f9d;
+}
+#segundo {
+  width: 402px;
+  margin: auto;
+  margin-top: -40px;
+  height: 349px;
+  left: 145px;
+  top: 933px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 168%;
+
+  letter-spacing: 0.015em;
+
+  color: #000000;
+}
+
+.tercertexto {
+  height: 70vh;
+  width: 45%;
+}
+.tercerfoto {
+  background: url(img/graf.jpg);
+  opacity: 50%;
+  background-size: cover;
+  background-position: center;
+  width: 55%;
+  height: 70vh;
+}
+#tercer-pantalla {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+      106.78deg,
+      rgba(229, 47, 38, 0.3) 27.54%,
+      rgba(229, 47, 38, 0) 94.21%
+    ),
+    #1b4f9d;
+}
+#content {
+  width: 404px;
+  margin: auto;
+
+  margin-top: 60px;
+
+  height: 120px;
+  left: 145px;
+  top: 842px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #fff;
+}
+#tercer {
+  width: 402px;
+  margin: auto;
+  margin-top: -40px;
+  height: 349px;
+  left: 145px;
+  top: 933px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 168%;
+
+  letter-spacing: 0.015em;
+
+  color: #fff;
+}
+
+.cuartotexto {
+  background: #ffffff;
+  height: 100vh;
+  width: 55%;
+}
+.cuartafoto {
+  background: url(img/indonesia.jpg);
+  opacity: 70%;
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 100vh;
+}
+#cuarta-pantalla {
+  display: flex;
+  flex-wrap: wrap;
+}
+#design {
+  width: 404px;
+  margin: auto;
+
+  margin-top: 60px;
+  height: 120px;
+  left: 145px;
+  top: 842px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #1b4f9d;
+}
+#cuarto {
+  width: 402px;
+  margin: auto;
+  margin-top: -40px;
+  height: 349px;
+  left: 145px;
+  top: 933px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 168%;
+
+  letter-spacing: 0.015em;
+
+  color: #000000;
+}
+
+#sexta-pantalla {
+  display: flex;
+  background: linear-gradient(
+      270deg,
+      rgba(27, 79, 157, 0.4) 0%,
+      rgba(28, 28, 27, 0.2) 52.08%,
+      rgba(28, 28, 27, 0.4) 100%
+    ),
+    #1b4f9d;
+}
+.video {
+  align-content: center;
+  padding: 100px;
+}
+.sextafoto {
+  position: relative;
+  padding: 0px;
+  margin-top: 60px;
+}
+
+#septima-pantalla {
+  width: 1440px;
+  height: 657px;
+  left: 0px;
+  top: 4081px;
+
+  background: linear-gradient(
+      106.78deg,
+      rgba(229, 47, 38, 0.3) 27.54%,
+      rgba(229, 47, 38, 0) 94.21%
+    ),
+    #1b4f9d;
+}
+
+.behance {
+  position: absolute;
+  width: 521px;
+  height: 17px;
+  left: 180px;
+  top: 3781px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: #ffffff;
+}
+.samsung {
+  position: absolute;
+  width: 100%;
+  height: 614px;
+  left: 858px;
+  top: 3673px;
+
+}
+
+#septima-pantalla button {
+  margin: 0 0.5rem;
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 1.1rem;
+}
+
+
+/* fu** futter ------------------------------------------------------*/
+
+.footer {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+.footer .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.footer .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .grupo-1 .box figure img {
+  width: 250px;
+}
+.footer .grupo-1 .box h2 {
+  color: #1b4f9d;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.footer .grupo-1 .box li {
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  list-style: none;
+}
+.text {
+  font-family: "Poppins";
+}
+.footer .grupo-1 .fanpage a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #000;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.footer .grupo-1 .fanpage a:hover {
+  color: rgb(143, 143, 143);
+}
+@media screen and (max-width: 800px) {
+  .footer .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}

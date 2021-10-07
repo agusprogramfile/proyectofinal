@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* carrusel */
+.slider{
+	width: 100%;
+	background: #E4E4E4;
+	padding: 65px 0;
+}
+
+.slider-text{
+	width: 85%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+.new{
+	margin-bottom: 15px;
+}
+
+.work{
+	font-family: "Open sans";
+	font-weight: 300;
+	text-align: center;
+	font-size: 36px;
+	line-height: 160.2%;
+	color: #1B4F9D;
+}
+/* boton 7 */
+.boton button{
+	margin-top: 50px;
+	background: #ffffff;
+	border-radius: 43px;
+	box-shadow: 5px 5px #6363630c;
+	color: #1B4F9D;
+	width: 278px;
+	height: 64px;
+	left: 153px;
+	top: 4498px;
+	font-size: 24px;
+	font-family: 'poppins';
+	line-height: 36px;
+	font-style: normal;
+
+
+}
